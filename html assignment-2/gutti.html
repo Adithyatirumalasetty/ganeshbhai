@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            position: fixed;
+            margin-left: 1250px;
+            padding: 10px;
+            position: fixed;
+            top: 10px; 
+            left: 15px; 
+            background-color: white; 
+            padding: 10px;
+            border-radius: 5px; 
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            font-weight: bold;
+            border-radius: 100px;
+        }
+        body{
+            background-color: wheat;
+        }
+        h1{
+            margin-top: 140px;
+            text-align: center;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: black;
+            font-weight: bolder;
+        }
+        .contact{
+            border: 1px solid black;
+            padding-left: 580px;
+            background-color: aqua;
+        
+        }
+        .contact-form{
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid  violet;
+            background-color: whitesmoke;
+        }
+        form label{
+            margin-top: 5px;
+            display: block;
+        }
+        form input{
+            width: 1320px;
+            padding: 10px;
+            border: 1px solid whitesmoke;
+        }
+        form textarea{
+            border: 1px solid whitesmoke;
+            width: 1320px;
+        }
+        form input[type = "submit"]{
+            margin-left: 550px;
+            width: 150px;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">contact</a>
+    </div>
+    <h1>CONTACT</h1>
+    <div class="contact">
+        <h4>Email - natukularahul14@gmail.com</h4>
+        <h4 >Phone Number - 9652060366</h4>
+        <h4 style="margin-left: 70px;"><a href="www.linkedin.com/in/rahulnatukula18" style="text-decoration: none;">Linkedin</a></h4>
+        <h4 style="margin-left: 70px;"><a href="https://www.instagram.com/nrahul_02/?next=%2F&hl=en" style="text-decoration: none;">Instagram</a></h4>
+    </div>
+    <h1 style="margin-top: 50px;">To Contact Me</h1>
+    <div class="contact-form">
+        <form action="mailto:natukularahul14@gmail.com" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" required>
+            <br>
+            <label for="subject">Subject</label>
+            <input type="text " name="subject">
+            <br>
+            <label for="message">Message:</label>
+            <textarea  name="message" rows="4" required></textarea>
+            <br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>

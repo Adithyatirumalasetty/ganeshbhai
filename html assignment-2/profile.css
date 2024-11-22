@@ -1,0 +1,30 @@
+body header{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+    
+
+}
+.images{
+   padding: 20px;
+   text-align: center;
+} 
+.photo{
+    width: 10px;
+    height: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}  
+   
+
+
+.about{
+
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
